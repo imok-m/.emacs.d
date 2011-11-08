@@ -1,0 +1,10 @@
+;; キーバインド設定
+(define-key global-map (kbd "C-h") 'delete-backward-char)
+(define-key global-map (kbd "M-?") 'help-for-help)
+(define-key global-map (kbd "C-z") 'undo)
+(define-key global-map (kbd "C-c i") 'indent-region)
+(define-key global-map (kbd "C-c C-i") 'hippie-expand)
+(define-key global-map (kbd "C-c ;") 'comment-dwim)
+(define-key global-map (kbd "C-o") 'toggle-input-method)
+(define-key global-map (kbd "M-C-g") 'grep)
+(define-key global-map (kbd "C-[ M-C-g") 'goto-line)
